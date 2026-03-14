@@ -60,7 +60,7 @@ export function StatusFeed({
     <div className="h-full flex flex-col">
       {/* Header */}
       <div className="bg-surface border-b border-border px-4 sm:px-8 py-6">
-        <div className="max-w-4xl">
+        <div>
           <div className="flex items-center justify-between mb-6">
             <div>
               <h2 className="text-2xl font-semibold text-foreground">Status Feed</h2>

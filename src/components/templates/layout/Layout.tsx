@@ -109,7 +109,7 @@ export function Layout({ children }: LayoutProps) {
   return (
     <div className="flex h-screen bg-surface-raised">
       {/* Mobile header */}
-      <div className="fixed top-0 left-0 right-0 z-30 flex md:hidden items-center gap-3 bg-surface border-b border-border px-4 py-3">
+      <div className="fixed top-0 left-0 right-0 z-30 flex md:hidden  items-center gap-3 bg-surface border-b border-border px-4 py-3">
         <Button
           variant="ghost"
           size="icon"
