@@ -13,6 +13,9 @@ figma-output/node_modules/
 # Generated files
 src/routeTree.gen.ts
 
+# Editor
+.vscode/
+
 # Environment
 .env
 .env.*

@@ -1,3 +1,9 @@
+/**
+ * Application entry component.
+ * Creates the TanStack Query client (with staleTime and retry defaults)
+ * and the TanStack Router instance, then renders both providers.
+ */
+
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { createRouter, RouterProvider } from '@tanstack/react-router'

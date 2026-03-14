@@ -1,3 +1,9 @@
+/**
+ * Application bootstrap.
+ * Initialises the MSW service worker for mock API interception,
+ * then mounts the React app into the DOM inside StrictMode.
+ */
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App'
